@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando formulário</title>
+</head>
+<body>
+    <form action="madbhv@gmail.com" method="get">
+       Nome: <input type="text" name="nome" size="20" maxlength="5" value="Ana">
+       <br>
+       <br>
+       Estado: <input type="text" name="uf" size="20" value="CE">
+       <br>
+       <br>
+      N de cartão: <input type="text" name="números" size="20">
+      <br>
+      <br>
+       Senha: <input type="password" name="senha" size="20">
+       <br>
+       <br>
+       <h4>Selecione a bandeira do cartão de crédito:</h4>
+       <input type="radio" name="variavel" checked>Visa
+       <br>
+       <input type="radio" name="variável"> MasterCard
+
+       <h4>Selecione o horário da entrega:</h4>
+       <input type="checkbox" name="variável" checked>08h as 12h
+       <br>
+       <input type="checkbox" name="variável">13h as 15h
+       <br>
+       <input type="checkbox" name="variável"> 16h as 18h
+       <br>
+       <br>
+       Endereço: <input type="text" name="end" size="20">
+       <br>
+       <br>
+       Referencia:
+        <textarea name="ref" rows="10" cols="50"></textarea>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="Enviar"><input type="reset" value="Limpar"><input type="hidden" name="cpf" value="verdadeiro">
+
+
+    </form>
+</body>
+</html>
